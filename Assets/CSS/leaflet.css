@@ -535,7 +535,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-container a.leaflet-popup-close-button:hover,
 .leaflet-container a.leaflet-popup-close-button:focus {
 	color: #585858;
-	}
+}
 .leaflet-popup-scrolled {
 	overflow: auto;
 	}
