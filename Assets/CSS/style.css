@@ -2,3 +2,25 @@
 .map_wrapper{
     height: 100vh;
 }
+.bg_side_bar{
+    background-color: bisque;
+}
+.form_control_wrapper{
+    background-color: #42484d;
+    border-radius: 5px;
+    padding: 1.5rem 2.75rem;
+    margin-bottom: 1.75rem;
+    transition: all 0.5s, transform 1ms;
+}
+.form__row label{
+    color: #fff;
+}
+.form__input{
+    width: 60%;
+}
+.hide{
+    display: none;
+}
+.form__input--distance:focus{
+    background-color: blue;
+}
