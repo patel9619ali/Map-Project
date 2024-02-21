@@ -3,7 +3,10 @@
     height: 100vh;
 }
 .bg_side_bar{
-    background-color: bisque;
+    background-color: #42484db5;
+}
+.bg_side_bar h3{
+    color: #fff;
 }
 .form_control_wrapper{
     background-color: #42484d;
@@ -22,5 +25,38 @@
     display: none;
 }
 .form__input--distance:focus{
-    background-color: blue;
+    border: black;
+}
+.row__hidden{
+    display: none;
+}
+li{
+    list-style: none;
+}
+.all_workouts{
+    display: flex;
+}
+.workout--running {
+    border-left: 5px solid #00c46a;
+}
+.workout--cycling {
+    border-left: 5px solid #ffb545;
+}
+.workout {
+    background-color: #42484d;
+    border-radius: 5px;
+    padding: 1.5rem 2.25rem;
+    margin-bottom: 1.75rem;
+    cursor: pointer;
+}
+.workout__title{
+   font-size: 14px;
+   color: #fff;
+}
+.workout__value,.workout__unit{
+    color: #fff;
+    font-size: 12px;
+}
+.workout__details{
+    margin-left: 11px;
 }
