@@ -116,14 +116,3 @@ optionsType.addEventListener('change',function(){
     steps.classList.toggle('row__hidden');
 })
 });
-
-
-
-let abc = document.querySelectorAll('.destination_city__17aXz');
-console.log(abc);
-for (let i = 0; i < abc.length; i++) {
-  const element = abc[i];
-  // console.log(element);
-  console.log(element.innerHTML)
-  console.log(element.href);
-}
