@@ -114,5 +114,19 @@ let speedFormattedKilometerHrs = calulationForKilometerHour.toFixed(1);
 optionsType.addEventListener('change',function(){
     elevation.classList.toggle('row__hidden');
     steps.classList.toggle('row__hidden');
-})
+  })
+  // console.log(coordinate)
 });
+listAllWrapper.addEventListener('click', function(e){
+  // let workoutNew = document.querySelector(".workout");
+  const latitude = position.coords.latitude;
+const longitude = position.coords.longitude;
+  const coordinateNew = [latitude, longitude];
+  console.log(coordinate)
+  console.log(coordinateNew);
+  // console.log(map)
+  map.setView(coordinateNew,zoom, {
+    animate: true, // Enable animation
+    duration: 1 // Animation duration in seconds
+  });
+})
